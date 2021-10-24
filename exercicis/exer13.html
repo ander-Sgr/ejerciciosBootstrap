@@ -9,10 +9,28 @@
     <title>exer13</title>
 </head>
 <body>
-    <div class="row ">
-        <div class="col-sm-9  border border-dark"> main content </div>
-        <div class="col-sm-4 col-pull-9 border border-dark"> sidebar </div>
-      </div>
+    <div class="container border border-dark mt-4">
+        <h3>Hola, Mon!</h3>
+        <div class="row border border-dark" >
+            <p>ANTES DE ORDENAR</p>
+            <div class="col border border-dark"  style="background-color: #eee6ff;">
+                <p>YO SOY LA IZQUIERDA</p>
+            </div>
+            <div class="col border border-dark"  style="background-color: #eee6ff;">
+                <p>YO SOY LA DERECHA</p>
+            </div>
+        </div>
+        <div class="row mt-3 border border-dark">
+            <p>DESPUES DE ORDENAR</p>
+            <div class="col-lg-3 order-last border border-dark " style="background-color: #eee6ff;">
+                <p>YO FUI LA IZQUIERDA</p>
+            </div>
+            <div class="col-lg border border-dark" style="background-color: #eee6ff;">
+                <p>YO FUI LA DERECHA</p>
+            </div>
+        </div>
+    </div>
+
              
 </body>
 </html>
